@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class UserPage implements OnInit {
 
-  private user: any;
+  user: any;
   private numero: number;
 
   constructor(private activatedRoute: ActivatedRoute) {
